@@ -9,7 +9,7 @@ exports.signin = (data, res) => {
   const {userInfo, WXcode} = data
   // 获取openId
   let appid = "wxee4a065b0b28aa03";
-  let secret = "c58806bb178b2245e9d2de29633df503";
+  let secret = "";
   let url =
       "https://api.weixin.qq.com/sns/jscode2session?appid=" +
       appid +
